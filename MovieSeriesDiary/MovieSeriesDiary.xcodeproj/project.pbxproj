@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396E8B4D2DB6D87D004C428A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 396E8B4C2DB6D87D004C428A /* FirebaseAuth */; };
+		396E8B4F2DB6D87D004C428A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 396E8B4E2DB6D87D004C428A /* FirebaseCore */; };
+		396E8B512DB6D87D004C428A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 396E8B502DB6D87D004C428A /* FirebaseFirestore */; };
+		396E8EDF2DBB85C0004C428A /* MovieSeriesDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396E8ED82DBB85C0004C428A /* MovieSeriesDiaryApp.swift */; };
+		398C08D02DAA95A000717BBC /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 398C08CF2DAA95A000717BBC /* SwiftSoup */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		398C08B22DAA954800717BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398C08992DAA954600717BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 398C08A02DAA954600717BBC;
+			remoteInfo = MovieSeriesDiary;
+		};
+		398C08BC2DAA954800717BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398C08992DAA954600717BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 398C08A02DAA954600717BBC;
+			remoteInfo = MovieSeriesDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		396E8ED82DBB85C0004C428A /* MovieSeriesDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSeriesDiaryApp.swift; sourceTree = "<group>"; };
+		398C08A12DAA954600717BBC /* MovieSeriesDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSeriesDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		398C08B12DAA954800717BBC /* MovieSeriesDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieSeriesDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		398C08BB2DAA954800717BBC /* MovieSeriesDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieSeriesDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		398C08A32DAA954600717BBC /* MovieSeriesDiary */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MovieSeriesDiary;
+			sourceTree = "<group>";
+		};
+		398C08B42DAA954800717BBC /* MovieSeriesDiaryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MovieSeriesDiaryTests;
+			sourceTree = "<group>";
+		};
+		398C08BE2DAA954800717BBC /* MovieSeriesDiaryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MovieSeriesDiaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		398C089E2DAA954600717BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398C08D02DAA95A000717BBC /* SwiftSoup in Frameworks */,
+				396E8B512DB6D87D004C428A /* FirebaseFirestore in Frameworks */,
+				396E8B4F2DB6D87D004C428A /* FirebaseCore in Frameworks */,
+				396E8B4D2DB6D87D004C428A /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398C08AE2DAA954800717BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398C08B82DAA954800717BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		398C08982DAA954600717BBC = {
+			isa = PBXGroup;
+			children = (
+				396E8ED82DBB85C0004C428A /* MovieSeriesDiaryApp.swift */,
+				398C08A32DAA954600717BBC /* MovieSeriesDiary */,
+				398C08B42DAA954800717BBC /* MovieSeriesDiaryTests */,
+				398C08BE2DAA954800717BBC /* MovieSeriesDiaryUITests */,
+				398C08A22DAA954600717BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		398C08A22DAA954600717BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398C08A12DAA954600717BBC /* MovieSeriesDiary.app */,
+				398C08B12DAA954800717BBC /* MovieSeriesDiaryTests.xctest */,
+				398C08BB2DAA954800717BBC /* MovieSeriesDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		398C08A02DAA954600717BBC /* MovieSeriesDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398C08C52DAA954800717BBC /* Build configuration list for PBXNativeTarget "MovieSeriesDiary" */;
+			buildPhases = (
+				398C089D2DAA954600717BBC /* Sources */,
+				398C089E2DAA954600717BBC /* Frameworks */,
+				398C089F2DAA954600717BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				398C08A32DAA954600717BBC /* MovieSeriesDiary */,
+			);
+			name = MovieSeriesDiary;
+			packageProductDependencies = (
+				398C08CF2DAA95A000717BBC /* SwiftSoup */,
+				396E8B4C2DB6D87D004C428A /* FirebaseAuth */,
+				396E8B4E2DB6D87D004C428A /* FirebaseCore */,
+				396E8B502DB6D87D004C428A /* FirebaseFirestore */,
+			);
+			productName = MovieSeriesDiary;
+			productReference = 398C08A12DAA954600717BBC /* MovieSeriesDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		398C08B02DAA954800717BBC /* MovieSeriesDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398C08C82DAA954800717BBC /* Build configuration list for PBXNativeTarget "MovieSeriesDiaryTests" */;
+			buildPhases = (
+				398C08AD2DAA954800717BBC /* Sources */,
+				398C08AE2DAA954800717BBC /* Frameworks */,
+				398C08AF2DAA954800717BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				398C08B32DAA954800717BBC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				398C08B42DAA954800717BBC /* MovieSeriesDiaryTests */,
+			);
+			name = MovieSeriesDiaryTests;
+			packageProductDependencies = (
+			);
+			productName = MovieSeriesDiaryTests;
+			productReference = 398C08B12DAA954800717BBC /* MovieSeriesDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		398C08BA2DAA954800717BBC /* MovieSeriesDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398C08CB2DAA954800717BBC /* Build configuration list for PBXNativeTarget "MovieSeriesDiaryUITests" */;
+			buildPhases = (
+				398C08B72DAA954800717BBC /* Sources */,
+				398C08B82DAA954800717BBC /* Frameworks */,
+				398C08B92DAA954800717BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				398C08BD2DAA954800717BBC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				398C08BE2DAA954800717BBC /* MovieSeriesDiaryUITests */,
+			);
+			name = MovieSeriesDiaryUITests;
+			packageProductDependencies = (
+			);
+			productName = MovieSeriesDiaryUITests;
+			productReference = 398C08BB2DAA954800717BBC /* MovieSeriesDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		398C08992DAA954600717BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					398C08A02DAA954600717BBC = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					398C08B02DAA954800717BBC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 398C08A02DAA954600717BBC;
+					};
+					398C08BA2DAA954800717BBC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 398C08A02DAA954600717BBC;
+					};
+				};
+			};
+			buildConfigurationList = 398C089C2DAA954600717BBC /* Build configuration list for PBXProject "MovieSeriesDiary" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 398C08982DAA954600717BBC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				398C08CE2DAA95A000717BBC /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				396E8B4B2DB6D87D004C428A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 398C08A22DAA954600717BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				398C08A02DAA954600717BBC /* MovieSeriesDiary */,
+				398C08B02DAA954800717BBC /* MovieSeriesDiaryTests */,
+				398C08BA2DAA954800717BBC /* MovieSeriesDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		398C089F2DAA954600717BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398C08AF2DAA954800717BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398C08B92DAA954800717BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		398C089D2DAA954600717BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396E8EDF2DBB85C0004C428A /* MovieSeriesDiaryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398C08AD2DAA954800717BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398C08B72DAA954800717BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		398C08B32DAA954800717BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 398C08A02DAA954600717BBC /* MovieSeriesDiary */;
+			targetProxy = 398C08B22DAA954800717BBC /* PBXContainerItemProxy */;
+		};
+		398C08BD2DAA954800717BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 398C08A02DAA954600717BBC /* MovieSeriesDiary */;
+			targetProxy = 398C08BC2DAA954800717BBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		398C08C32DAA954800717BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		398C08C42DAA954800717BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		398C08C62DAA954800717BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovieSeriesDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.MovieSeriesDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		398C08C72DAA954800717BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovieSeriesDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.MovieSeriesDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		398C08C92DAA954800717BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.MovieSeriesDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieSeriesDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovieSeriesDiary";
+			};
+			name = Debug;
+		};
+		398C08CA2DAA954800717BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.MovieSeriesDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieSeriesDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovieSeriesDiary";
+			};
+			name = Release;
+		};
+		398C08CC2DAA954800717BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.MovieSeriesDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovieSeriesDiary;
+			};
+			name = Debug;
+		};
+		398C08CD2DAA954800717BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.MovieSeriesDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovieSeriesDiary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		398C089C2DAA954600717BBC /* Build configuration list for PBXProject "MovieSeriesDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398C08C32DAA954800717BBC /* Debug */,
+				398C08C42DAA954800717BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398C08C52DAA954800717BBC /* Build configuration list for PBXNativeTarget "MovieSeriesDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398C08C62DAA954800717BBC /* Debug */,
+				398C08C72DAA954800717BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398C08C82DAA954800717BBC /* Build configuration list for PBXNativeTarget "MovieSeriesDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398C08C92DAA954800717BBC /* Debug */,
+				398C08CA2DAA954800717BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398C08CB2DAA954800717BBC /* Build configuration list for PBXNativeTarget "MovieSeriesDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398C08CC2DAA954800717BBC /* Debug */,
+				398C08CD2DAA954800717BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		396E8B4B2DB6D87D004C428A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+		398C08CE2DAA95A000717BBC /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		396E8B4C2DB6D87D004C428A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 396E8B4B2DB6D87D004C428A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		396E8B4E2DB6D87D004C428A /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 396E8B4B2DB6D87D004C428A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		396E8B502DB6D87D004C428A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 396E8B4B2DB6D87D004C428A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		398C08CF2DAA95A000717BBC /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 398C08CE2DAA95A000717BBC /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 398C08992DAA954600717BBC /* Project object */;
+}
