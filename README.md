@@ -1,5 +1,6 @@
 # MovieSeriesDiary
 Created for a Data Structures and Algorithms course project, which received full credit.
+You need to add your own GoogleService-Info of Firebase if you want to see the project properly. 
 
 ![Image](https://github.com/user-attachments/assets/40ec3d6d-3f5f-46ee-9cff-735c1a470ba8)
 ![Image](https://github.com/user-attachments/assets/f9aa341f-0dd7-416b-b6b9-04d3c74bc498)
