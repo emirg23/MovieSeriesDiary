@@ -8,7 +8,7 @@ To run the project properly, you must add your own GoogleService-Info.plist from
 
 <img width="1440" alt="Image" src="https://github.com/user-attachments/assets/9c8e6b32-f8dc-4ad3-afa8-2c8100573319" />
 
-<img src="https://github.com/user-attachments/assets/9c8e6b32-f8dc-4ad3-afa8-2c8100573319](https://github.com/user-attachments/assets/40ec3d6d-3f5f-46ee-9cff-735c1a470ba8" width="400"/>
+<img src="https://github.com/user-attachments/assets/40ec3d6d-3f5f-46ee-9cff-735c1a470ba8" width="400"/>
 
 
 ![Image](https://github.com/user-attachments/assets/f9aa341f-0dd7-416b-b6b9-04d3c74bc498)
