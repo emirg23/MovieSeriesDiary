@@ -1,5 +1,5 @@
 # MovieSeriesDiary
-Created for a Data Structures and Algorithms course project, which received full credit.
+Created for a Data Structures and Algorithms course project.
 
 The project includes a comprehensive database of movies and series in firebase, built by web-scraping data from IMDb.
 
